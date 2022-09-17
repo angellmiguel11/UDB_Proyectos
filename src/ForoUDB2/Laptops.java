@@ -15,11 +15,11 @@ public class Laptops  extends Registro {
 	public void mostrarDatos() {
 		System.out.println("Fabricante: " + getFabricante());
 		System.out.println("\n Modelo: " + getModelo());
-		System.out.println("\n Modelo: " + getMicroprocesador());
-		System.out.println("\n Modelo: " + getMemoria());
-		System.out.println("\n Modelo: " + getCapacidad());
+		System.out.println("\n Microprocesador: " + getMicroprocesador());
+		System.out.println("\n Memoria RAM: " + getMemoria());
+		System.out.println("\n Capacidad disco duro: " + getCapacidad());
 		
-		System.out.println("\n Modelo: " + tamaño_pantalla);
+		System.out.println("\n Tamaño de pantalla: " + tamaño_pantalla);
 		
 		
 		

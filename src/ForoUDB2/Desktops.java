@@ -16,12 +16,12 @@ public class Desktops extends Registro {
 	public void mostrarDatos() {
 		System.out.println("Fabricante: " + getFabricante());
 		System.out.println("\n Modelo: " + getModelo());
-		System.out.println("\n Modelo: " + getMicroprocesador());
-		System.out.println("\n Modelo: " + getMemoria());
-		System.out.println("\n Modelo: " + getCapacidad());
+		System.out.println("\n Microprocesador: " + getMicroprocesador());
+		System.out.println("\n Memoria RAM: " + getMemoria());
+		System.out.println("\n Capacidad disco duro: " + getCapacidad());
 		
-		System.out.println("\n Modelo: " + tarjeta_grafica);
-		System.out.println("\n Modelo: " + tamaño_torre);
+		System.out.println("\n Tarjeta gráfica: " + tarjeta_grafica);
+		System.out.println("\n Tamaño de torre: " + tamaño_torre);
 		
 		
 	}
